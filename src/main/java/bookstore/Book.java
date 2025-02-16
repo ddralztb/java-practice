@@ -4,9 +4,9 @@ public class Book {
 
     private int id;
     private String title;
-    private float price;
+    private double price;
 
-    public Book(int id, String title, float price){
+    public Book(int id, String title, double price){
         this.id = id;
         this.title = title;
         this.price = price;
@@ -20,7 +20,7 @@ public class Book {
         return title;
     }
 
-    public float getPrice(){
+    public double getPrice(){
         return price;
     }
 
@@ -34,5 +34,11 @@ public class Book {
 
     public void setPrice(float price){
         this.price = price;
+    }
+
+    public void displayBook(){
+        System.out.println("Id " + id + " \n");
+        System.out.println("Title " + title + " \n");
+        System.out.println("Price " + price + " \n");
     }
 }

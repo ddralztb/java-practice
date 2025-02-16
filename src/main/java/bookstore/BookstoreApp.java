@@ -20,23 +20,25 @@ public class BookstoreApp {
                 case 1:
                     store.createBook();
                     break;
-                /* 
+               
                 case 2:
                     store.removeBook();
                     break;
+                 
                 case 3:
                     store.updateBook();
-                    break;
+                    break;                
                 case 4:
                     store.listAllBooks();
                     break;
+                
                 case 5:
                     store.searchBooks();
                     break;
+                    
                 case 6:
                     store.sortBooksByTitle();
                     break;
-                 */
                 case 7:
                     System.out.println("Exiting... Goodbye!");
                     break;
