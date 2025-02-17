@@ -1,4 +1,4 @@
-package bookstore;
+package projects.bookstore;
 
 import java.util.Scanner;
 

@@ -1,10 +1,9 @@
 package examples;
-import bookstore.*;
+import projects.bookstore.*;
 
 public class Main {
     public static void main(String[] args) {
         BookstoreApp app = new BookstoreApp();
-
         app.start();
     }
 }
